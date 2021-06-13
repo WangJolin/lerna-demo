@@ -44,7 +44,7 @@ lerna-repo/
 -   `lerna import <pathToRepo>`：将本地路径 \<pathToRepo> 中的包导入到带有提交历史记录的包/\<directory-name> 中。例如：，`lerna import ~/Users/Product --dest=utilities`是将路径为`~/Users/Product`的包导入到名为`utilites`的包中。
 -   `lerna add xxx`：添加依赖。参数 `--scope=pkgName`。
     -   在所有 `package` 中安装 `react`： `lerna add react`
-    -   仅在 `tools` 中安装 `lodash` `lerna add lodash --scope=app`
+    -   仅在 `tools` 中安装 `lodash` `lerna add lodash --scope=tools`
     -   将 `ui` 关联到 `app` lerna add ui --scope=app
 
 参考：
