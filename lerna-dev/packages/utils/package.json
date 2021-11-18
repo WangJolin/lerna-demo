@@ -1,0 +1,29 @@
+{
+  "name": "@lerna-dev/utils",
+  "version": "1.0.0",
+  "description": "lerna-dev utils",
+  "author": "wangqiaoling <wangqiaoling@baidu.com>",
+  "homepage": "https://github.com/wangqiaoling01/lerna-demo#readme",
+  "license": "ISC",
+  "main": "lib/utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangqiaoling01/lerna-demo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/wangqiaoling01/lerna-demo/issues"
+  }
+}
